@@ -67,7 +67,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* margin-inline: auto; */
+    margin-inline: auto; 
 }
 .my-categories>h2{
     color: rgb(28, 28, 28);
@@ -76,13 +76,16 @@
     font-weight: 600;
     line-height: 32px;
 }
- .my-category-row{
-    justify-content: center;
-    margin-inline: auto;
-    width:80vw;
+ .my-category-div{
+    align-items: center;
+    margin-inline: auto; 
+    width:98vw;
+    margin-top: 30px;
+    overflow-x:auto;
+    display: flex;
 } 
 .my-card{
-    width:140px;
+    width:190px;
     box-sizing: border-box;
 }
 .time-taken{
@@ -91,12 +94,168 @@
     color:rgb(54,54,54);
     width:fit-content;
     padding:1px 3px;
+
 }
 .product-name{
     color:rgb(31,31,31);
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
     margin-top:6px;
-    
+    margin-bottom:6px;
+    width:100%;
+}
+.product-weight{
+    color:#666666;
+    font-size: 9px;
+}
+.product-price{
+    color:rgb(31,31,31);
+    font-weight: 600;
+    font-size: 12px;
+}
+.product-btn{
+    border:2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color:rgb(49,134,22);
+    width:66px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.offer{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    left: 0.75rem;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+}
+.Product__UpdatedOffer{
+    color:white;
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    padding: 5px;;
+}
+.my-category-row{
+    display: flex;
+    justify-content: space-between;
+    /* margin-inline:auto;  */
+    white-space: nowrap;
+
+}
+.my-category-row>div{
+    margin:10px;
 }
 
+.strike{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:10px;
+}
+.product-strike  {
+    text-decoration: line-through;
+    color:grey;
+    font-weight: 600;
+    font-size: 12px;
+}
+.footer{
+    justify-content: column;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    width: 85vw;
+}
+.my-footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-inline: auto;
+    width: 85vw;
+}
+
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.row-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-2-col-1{
+    width: 30vw;
+}
+
+.row-2-col-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-2-col-2>button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    background-color: #213b50;
+    margin-inline: 5px;
+}
+
+.row-2-col-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-2-col-3>a{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px;
+}
+.row-3{
+    color:#666666;
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+}
+
+td{
+    padding: 3px 20px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+tr>th{
+    text-align: center;
+}
+.table-2{
+    flex: 4;
+}
+
+.table-1{
+    flex: 2;
+}
