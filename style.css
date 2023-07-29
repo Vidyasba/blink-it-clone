@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.blinkit-navbar{
+    border-bottom: 1px solid rgb(238,238,238);
+    height: 86px;;
+    top:0px;
+    position: sticky;
+    background-color: white;
+}
+ .vertical-line{
+    border-left:1px solid rgb(238,238,238);
+    height: 100%;
+} 
+
+.location>p{
+    font-size: 13px;
+    font-weight:400;
+}
+
+.search-bar{
+    background-color :#f8f8f8;
+    border-radius:8px;
+    border:1px solid rgb(238,238,238);
+    padding:10px;
+    width:40vw;
+}
+.search-bar>input{
+    border:none;
+    width:95%;
+    background-color: transparent;
+    font-size:14px;
+    
+}
+.search-bar>input:focus{
+    outline:none;
+}
+
+.my-scrollable-div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow-x:auto;
+    width:90vw;
+     margin-inline:auto; 
+}
+.list{
+    width:100%;
+    margin-inline:auto; 
+    white-space: nowrap;
+}
+.list>div{
+    display: inline-block;
+    margin:5px;
+    margin-left:10px;
+}
+::-webkit-scrollbar{
+    /* background-color: transparent; */
+    color:red;
+    display: none;
+}
+.my-categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    width:85vw;
+}
+ .my-category-row{
+    justify-content: center;
+    margin-inline: auto;
+    width:85vw;
+} 
+.my-card{
+    width:140px;
+    box-sizing: border-box;
+}
+.time-taken{
+    font-weight: 400;
+    font-size: 9px;
+    color:rgb(54,54,54);
+    width:fit-content;
+    padding:1px 3px;
+}
+.product-name{
+    color:rgb(31,31,31);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top:6px;
+    
+}
+
