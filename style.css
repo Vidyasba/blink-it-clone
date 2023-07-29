@@ -43,8 +43,9 @@
     display: flex;
     align-items: center;
     overflow-x:auto;
-    width:90vw;
-     margin-inline:auto; 
+    width:98vw;
+    margin-inline:auto; 
+    margin-left: 0px; 
 }
 .list{
     width:100%;
@@ -66,13 +67,19 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-inline: auto;
-    width:85vw;
+    /* margin-inline: auto; */
+}
+.my-categories>h2{
+    color: rgb(28, 28, 28);
+    font-size: 24px;
+    font-family: Okra-Medium;
+    font-weight: 600;
+    line-height: 32px;
 }
  .my-category-row{
     justify-content: center;
     margin-inline: auto;
-    width:85vw;
+    width:80vw;
 } 
 .my-card{
     width:140px;
